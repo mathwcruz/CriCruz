@@ -20,6 +20,9 @@ CriCruz
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **Node.js**
+- **Express (a node.js framework)**
+- **Nunjucks (templating engine)**
 
  ### <p align="center">Iniciando a caminhada para depois participar da maratona nesse mundo da programação 🏃‍</p>
 
