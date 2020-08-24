@@ -1,0 +1,33 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<title> {{item.title}} | CriCruz</title>
+
+{% endblock %}
+
+{% block content %}
+
+        <div id="text">
+            <h1>{{item.title}}</h1>
+        </div>
+
+        <section class = "aba_video">
+
+            <div id = "{{item.id}}" class="video">
+                <div id = "video_img" class="video_video_container">
+                    <iframe src="https://www.youtube.com/embed/{{item.id}}" frameborder="0"></iframe>
+                    <img src="https://img.youtube.com/vi/{{item.id}}/0.jpg" alt="{{item.title}}">
+                </div>
+                <div class="video_content">
+                    <p>{{item.title}}</p> <!-- pegando um objeto da array de videos criada no (data.js) -->
+                </div>
+                <div class="video_info">
+                        <p>{{item.duration}}</p>
+                </div>
+            </div>
+
+        </section>
+
+
+{% endblock %}

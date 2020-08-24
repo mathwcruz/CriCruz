@@ -1,0 +1,24 @@
+{% extends "layout.njk" %} <!--quando o "about.njk" for aberto, ele irá  para o "layout.hmtl mas irá levar o conteúdo abaixo  -->
+
+{% block head %}
+    <title> Home | CriCruz</title>
+{% endblock %}
+
+{% block content %} <!-- abrindo o bloco de conteúdo -->
+            <!-- LEVARÁ ESSE CÓDIGO JUNTO-->
+        <div class="container">
+            <img src="{{about.avatar_url}}" alt="{{about.name}}">
+            <h1>{{about.name}}</h1>
+            <p>{{about.description}}</p>
+        </div>
+
+        <div id = "footer-links" class="footer">
+        {% for link in about.links %}
+
+            <a id = "{{ link.id }}" href="{{ link.url }}}" target="_blank">{{ link.name}}</a>
+
+        {% endfor%}
+
+        </div>
+
+{% endblock %} <!-- fechando o bloco de conteúdo -->

@@ -1,0 +1,43 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<title> Conteúdo | CriCruz</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+
+        <div id="text">
+            <h1>Aprenda sobre o futuro das moedas</h1>
+        </div>
+
+        <section class = "videos">
+                <!-- Criando uma estrutura de reptição para os videos na aba de Conteúdo -->
+            {% for item in items %} <!-- estruta de repetição no nunjucks -->
+
+            <div id = "{{item.id}}" class="video">
+                <div class="video_image_container">
+                    <img src="https://img.youtube.com/vi/{{item.id}}/0.jpg" alt="{{item.title}}">
+                    {% if item.featured %} <!-- configurando video em destaque -->
+                        <div class="featured">Destaque</div>
+                    {% endif %}
+                </div>
+                <div class="video_content">
+                    <p>{{item.title}}</p> <!-- pegando um objeto da array de videos criada no (data.js) -->
+                </div>
+                <div class="video_info">
+                        <p>{{item.duration}}</p>
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </section>
+
+        <script src="/scripts.js"></script>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        {% block head %}
+            <title>CriCruz</title>
+        {% endblock %}
+        
+        <link rel= "stylesheet" href= "/styles.css">
+        <link rel= "shortcut icon" href= "https://icons-for-free.com/iconfiles/png/512/btc+coin+crypto+icon-1320162856490699468.png">
+    </head>
+
+    <body>
+        
+        <header>
+
+            <div class = "links">
+                <a href="/">Sobre mim</a>
+                <a href="/videos">Conteúdo</a>
+            </div>
+
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </body>
+
+</html>
