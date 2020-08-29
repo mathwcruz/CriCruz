@@ -20,7 +20,6 @@ CriCruz
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Node.js**
 - **Express (a node.js framework)**
 - **Nunjucks (templating engine)**
 
