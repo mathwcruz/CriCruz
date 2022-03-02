@@ -6,9 +6,9 @@
 CriCruz
 </h1>
 
-## **<p align="center"> Aplicação front e back-end sobre contéudo de aprendizado de criptomoedas ₿ </p>**
+## **<p align="center">Front-end application on cryptocurrency learning content ₿ </p>**
 
-## Aplicação Web 💻: 
+## Web Layout 💻: 
 
 <p align="center">
   <img src="https://github.com/mathwcruz/CriCruz/blob/master/GIF_Web.gif" width="1000px"/>
@@ -16,7 +16,7 @@ CriCruz
 
 <hr />
 
-## 🚀 Tecnologias utilizadas:
+## 🚀 Technologies used:
 
 <p align="center">
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5"  width="70" height="70"/>
@@ -27,6 +27,6 @@ CriCruz
 
 - Nunjucks (a template engine) ✔️
 
- ### <p align="center">Iniciando a caminhada para depois participar da maratona nesse mundo da programação 🏃‍</p>
+ ### <p align="center">Starting the walk and then participating in the marathon in this programming world 🏃‍</p>
 
- ### <p align="center">Primeira aplicação realizada por Matheus da Cruz 😄</p>
+ ### <p align="center">First application made by Matheus da Cruz 😄</p>
