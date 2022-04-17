@@ -6,7 +6,7 @@
 CriCruz
 </h1>
 
-## **<p align="center">Front-end application on cryptocurrency learning content ₿ </p>**
+<h3 align="center">Front-end application on cryptocurrency learning content ₿ </h3>
 
 ## Web Layout 💻: 
 
@@ -24,6 +24,6 @@ CriCruz
 <img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/javascript_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvamF2YXNjcmlwdF9pY29uLnN2ZyIsImlhdCI6MTY0NjI0NjIzMCwiZXhwIjoxOTYxNjA2MjMwfQ.QIS7HkNO4Drmw1nPp5JVsYZoPtW2Mq9Tqdki28Ym1_4" alt="javascript" width="70" height="70"/>
 </p>
 
- ### <p align="center">Starting the walk and then participating in the marathon in this programming world 🏃‍</p>
+<p align="center">Starting the walk and then participating in the marathon in this programming world 🏃‍</p>
 
- ### <p align="center">First application made by Matheus da Cruz 😄</p>
+<h2 align="center">First application made by Matheus da Cruz 😄</h2>
