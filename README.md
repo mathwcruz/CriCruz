@@ -11,7 +11,7 @@ CriCruz
 ## Web Layout 💻: 
 
 <p align="center">
-  <img src="https://github.com/mathwcruz/CriCruz/blob/master/GIF_Web.gif" width="1000px"/>
+  <img src="https://github.com/mathwcruz/CriCruz/blob/master/GIF_Web.gif" width="100%"/>
 </p>
 
 ## 🚀 Technologies used:
