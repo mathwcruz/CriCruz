@@ -35,4 +35,4 @@ CriCruz
 
 <p align="center">Starting the walk and then participating in the marathon in this programming world 🏃‍</p>
 
-<h2 align="center">First application made by Matheus da Cruz 😄</h2>
+<h2 align="center">First application developed by Matheus da Cruz 😄</h2>
